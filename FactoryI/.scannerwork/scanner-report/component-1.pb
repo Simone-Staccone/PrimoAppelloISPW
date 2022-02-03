@@ -1,0 +1,1 @@
+PrimoAppelloISPW :	B73https://github.com/Simone-Staccone/PrimoAppelloISPWB:6https://travis-ci.org/Simone-Staccone/PrimoAppelloISPWB>:https://github.com/Simone-Staccone/PrimoAppelloISPW/issuesB73https://github.com/Simone-Staccone/PrimoAppelloISPWR1Simone-Staccone_PrimoAppelloISPW/PrimoAppelloISPW

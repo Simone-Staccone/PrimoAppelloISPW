@@ -1,0 +1,41 @@
+
+factory.EveryFood#order()ZÅ
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java	 	("8*≥
+6Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (3À
+»
+Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (3
+randjava.util.Random"__id*"
+ 
+%0java.security.SecureRandom÷”
+Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (	
+%1int"java.util.Random#nextInt()I*
+
+randjava.util.Random2	nextInt()*
+1*§
+7Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (ï
+í
+Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (3 
+%0java.security.SecureRandom"Jjava.security.SecureRandom#getInstanceStrong()Ljava/security/SecureRandom;*"
+java.security.SecureRandom*
+6*æ
+8Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java
+ 
+(Ø
+¨
+Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (
+randjava.util.Random"__id*
+""*
+7*ñ
+1Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java ("å
+Å
+wC:/Users/simon/Desktop/Universit√†/Terzo Anno/ISPW/PrimoAppelloISPW/trunk/FactoryI/src/main/java/factory/EveryFood.java (
+""B
+factory.EveryFood
