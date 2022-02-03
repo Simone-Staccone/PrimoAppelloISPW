@@ -3,5 +3,5 @@ projectKey=Simone-Staccone_PrimoAppelloISPW/PrimoAppelloISPW
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.26521
 dashboardUrl=https://sonarcloud.io/dashboard?id=Simone-Staccone_PrimoAppelloISPW%2FPrimoAppelloISPW
-ceTaskId=AX6_JpD-hI-HlXYDA4qB
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX6_JpD-hI-HlXYDA4qB
+ceTaskId=AX6_SzOATFete-VxjoAX
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX6_SzOATFete-VxjoAX

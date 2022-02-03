@@ -4,7 +4,7 @@ public class Client {
     public static void main(String[] args){
         Client c = new Client();
         Factory factory = new Factory();
-        Food food = factory.makeFood("factory.Pizza");
+        Food food = factory.makeFood("pizza");
 
         if(c.makeOrder(food))
             c.eat(food);
@@ -27,10 +27,6 @@ public class Client {
     private boolean makeOrder(Food food) {
         boolean ret;
         ret = food.order();
-        if(ret)
-            System.out.println("Ordine effettuato con successo");
-        else
-            System.out.println("Errore di ordinazione");
         return ret;
     }
 }

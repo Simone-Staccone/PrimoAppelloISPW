@@ -1,8 +1,19 @@
 package factory;
 
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
 public class Pasta extends EveryFood{
     @Override
     public void eat() {
-        System.out.println("You are eating a pasta!");
+        String res = "Stai mangiando pasta" + "\n";
+
+        try (RandomAccessFile raf = new RandomAccessFile("output.txt", "rw")){
+            raf.seek(raf.length());
+            raf.write(res.getBytes());
+        }
+        catch(IOException e) {
+            e.printStackTrace();
+        }
     }
 }

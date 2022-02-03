@@ -1,1 +1,1 @@
- 2javaX(hr"src/main/java/factory/Factory.java
+ 2javaX,hr"src/main/java/factory/Factory.java

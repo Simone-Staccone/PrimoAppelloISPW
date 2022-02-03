@@ -1,5 +1,8 @@
 package factory;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.Random;
@@ -9,12 +12,12 @@ public class EveryFood implements Food{
     public boolean order() {
         boolean ret = false;
         Random rand;
-        int n = 0;
+        int n;
         try {
             rand = SecureRandom.getInstanceStrong();
             n = rand.nextInt();
         } catch (NoSuchAlgorithmException e) {
-            System.out.println("Errore nella random");
+            n = 0;
         }
 
         if(n%2 == 0)
@@ -24,6 +27,14 @@ public class EveryFood implements Food{
 
     @Override
     public void eat() {
-        System.out.println("You are eating!");
+        String res = "Stai mangiando qualcosa" + "\n";
+
+        try (RandomAccessFile raf = new RandomAccessFile("output.txt", "rw")){
+            raf.seek(raf.length());
+            raf.write(res.getBytes());
+        }
+        catch(IOException e) {
+            e.printStackTrace();
+        }
     }
 }

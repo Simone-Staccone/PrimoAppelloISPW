@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Factory {
     public Food makeFood(String type){
-        int num = -1;
+        int num;
         List<String> typeList = Costanti.getList();
 
         for(num = 0;num<typeList.size();num++)
@@ -14,15 +14,19 @@ public class Factory {
         }
 
         switch (num) {
-            case 1:
+            case 0:
                 return makePizza();
-            case 2:
+            case 1:
                 return makePasta();
-            case 3:
+            case 2:
                 return makeHamburger();
             default:
-                throw new IllegalArgumentException("Invalid type : " + type,null);
+                return makeNonOrdinabile();
         }
+    }
+
+    private Food makeNonOrdinabile() {
+        return new NonOrdinabile();
     }
 
     private Food makePizza() {
